@@ -16,7 +16,7 @@ body {
     display: flex;
     top: 0;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     padding: 10px;
     background-color: transparent;
@@ -42,6 +42,10 @@ body {
 .nav-container .nav-bar a:hover {
     background-color: rgba(255, 255, 255, 0.959);
     color: #000;
+}
+
+.nav-container .nav-bar .login {
+    display: inline-flex;
 }
 
 .sub-section {
@@ -73,6 +77,17 @@ body {
     font-size: 17px;
     backdrop-filter: blur(5px);
     background-color: transparent;
+}
+
+.sub-panel .subs .sub .sub-name {
+    display: inline-flex;
+    justify-content: center;;
+    background-color: #000;
+    width: 8em;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.8;
 }
 
 .sub-panel .subs .sub .price {
