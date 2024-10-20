@@ -14,6 +14,7 @@ body {
 
 .nav-container .nav-bar {
     display: flex;
+    top: 0;
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
@@ -111,4 +112,23 @@ body {
     font-weight: bold;
     text-align: center;
     background-color: transparent;
+    transition: background-color,color 0.22s ease-in;
+}
+
+.sub-panel .subs .sub a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-container .footer-bar {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    gap: 30px;
+    font-size: 30px;
 }
